@@ -1,0 +1,61 @@
+.about-section{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 80px;
+    
+}
+.about-img{
+    width: 550px;
+}
+.about-title{
+    margin-top: 0;
+}
+.details-us{
+    text-align: justify;
+}
+.book-now-btn{
+    padding: 8px 20px;
+    border: 2px solid white;
+    border-radius: 20px;
+    font-weight: 600;
+    background-color: #04AA6B;
+    color: white;
+}
+
+.book-now-btn:hover{
+    background-color: white;
+    color: #04AA6B;
+    border: 2px solid #04AA6B;
+}
+
+.free-table{
+    padding: 30px 50px;
+}
+
+@media only screen and (max-width:688px){
+    .about-section{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        padding: 30px;
+        
+    }
+    .about-img{
+        width: 300px;
+    }
+    .about-title{
+        margin: 20px 0;
+        font-size: 25px;
+        text-align: center;
+    }
+    .free-table{
+        padding: 20px 30px;
+    }
+    .book-now-btn{
+        padding: 5px 15px;
+        border-radius: 20px;
+        font-weight: 500;
+        background-color: #04AA6B;
+        color: white;
+    }
+    
+}

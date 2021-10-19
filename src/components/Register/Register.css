@@ -1,0 +1,79 @@
+#login-div{
+display: none;
+}
+.login-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    padding: 50px;
+    justify-content: center;
+    align-items: center;
+}
+.other-options{
+margin-left: 70px;
+}
+.google{
+    font-size: 20px;
+    background-color: white;
+    color: #ca3420;
+    border: 2px solid #ca3420;
+    border-radius: 15px;
+}
+.google:hover{
+    font-size: 20px;
+    background-color: #ca3420;
+    color: white;
+    border: 2px solid #ca3420;
+    border-radius: 20px;
+}
+.login-btn{
+    font-size: 20px;
+    background-color: white;
+    color: #04AA6B;
+    border: 2px solid #04AA6B;
+    border-radius: 20px;
+    padding: 5px 10px;
+}
+
+@media only screen and (max-width:688px){
+    #login-div{
+        display: none;
+        }
+        .login-container{
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            grid-gap: 20px;
+            padding: 50px;
+            justify-content: center;
+            align-items: center;
+        }
+        .other-options{
+        margin-left: 15px;
+        margin-top: 20px;
+        justify-content: center;
+            align-items: center;
+
+        }
+        .google{
+            font-size: 20px;
+            background-color: white;
+            color: #ca3420;
+            border: 2px solid #ca3420;
+            border-radius: 15px;
+        }
+        .google:hover{
+            font-size: 20px;
+            background-color: #ca3420;
+            color: white;
+            border: 2px solid #ca3420;
+            border-radius: 20px;
+        }
+        .login-btn{
+            font-size: 20px;
+            background-color: white;
+            color: #04AA6B;
+            border: 2px solid #04AA6B;
+            border-radius: 20px;
+            padding: 5px 10px;
+        }
+}

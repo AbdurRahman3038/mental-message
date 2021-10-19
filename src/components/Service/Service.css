@@ -1,0 +1,23 @@
+.book-appointment{
+    background-color: #04AA6B;
+    color: white;
+    padding: 7px 20px;
+    border: 2px solid white;
+    border-radius: 20px;
+    font-size: 18px;
+}
+.book-appointment:hover{
+    background-color: white;
+    color: #04AA6B;
+    border: 2px solid #04AA6B;
+}
+.img-style{
+    height:250px;
+}
+    
+
+@media only screen and (max-width:688px){
+    .img-style{
+        height: 190px;
+    }
+}

@@ -1,0 +1,40 @@
+.header-logo{
+    font-size: 35px;
+    font-weight: 600;
+    color: #04AA6B;
+    
+}
+.header-design{
+    font-weight: 600;
+    color: #04AA6B;
+    text-decoration: none;
+    margin-left:10px ;
+}
+.sign-up{
+    border: 2px solid #04AA6B;
+    border-radius: 20px;
+    color: #04AA6B;
+    padding: 0 10px;
+}
+.sign-up:hover{
+    border: 2px solid #04AA6B;
+    border-radius: 20px;
+    background-color: #04AA6B;
+    color: white;
+}
+.name{
+    margin-left: 10px;
+    font-weight: 600;
+    color: rgb(168, 56, 56);
+}
+.logout{
+    font-size: 15px;
+    background-color: white;
+    color: #ca3420;
+    border: 2px solid #ca3420;
+    border-radius: 20px;
+    padding: 5px 10px;
+    margin-left: 5px;
+    font-weight: 600;
+}
+

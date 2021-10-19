@@ -1,0 +1,9 @@
+.details-card{
+    margin: 40px 500px;
+}
+
+@media only screen and (max-width:688px){
+    .details-card{
+        margin: 20px;
+    }
+}
