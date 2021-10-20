@@ -7,12 +7,12 @@ import { Table } from 'react-bootstrap';
 const FreeConsultation = () => {
     return (
         <div>
-            <section className="about-section">
+            <section className="free-consultation">
                 <div>
-                    <img className="about-img" src={img} alt="" />
+                    <img className="free-img" src={img} alt="" />
                 </div>
                 <div>
-                    <h1 className="about-title">Join A Free Consultation</h1>
+                    <h1 className="free-title">Join A Free Consultation</h1>
                     <p className="details-us">
                         Having been taboo for decades, if not centuries, mental health is now being widely discussed. During these exceptional times of pandemic, many of us are confronted with psychological problems related to isolation, anxiety, loneliness, frustrations, addictions, insecurities, depression and – issues regularly addressed by Krishnamurti. <br /> <br />Throughout his talks and discussions, Krishnamurti reveals that we are conditioned to have problems and that taking them personally may be a fundamental error. Moreover, the realisation that one’s loneliness. <br /> <br /> ‘It is no measure of health to be well-adjusted to a profoundly sick society’ is perhaps Krishnamurti’s best-known quote, shared widely across the internet. Although we cannot attribute these exact words to Krishnamurti. <br /> <br />So, if not in relation to society, how is health, specifically mental health, to be measured, and what does it mean to be truly healthy? <br /> <br />
 

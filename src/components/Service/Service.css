@@ -5,6 +5,7 @@
     border: 2px solid white;
     border-radius: 20px;
     font-size: 18px;
+
 }
 .book-appointment:hover{
     background-color: white;
@@ -12,9 +13,15 @@
     border: 2px solid #04AA6B;
 }
 .img-style{
-    height:250px;
+    height:210px;
 }
-    
+
+.card-footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
 @media only screen and (max-width:688px){
     .img-style{

@@ -9,12 +9,13 @@
     color: #04AA6B;
     text-decoration: none;
     margin-left:10px ;
+    padding: 5px 5px;
 }
 .sign-up{
     border: 2px solid #04AA6B;
     border-radius: 20px;
     color: #04AA6B;
-    padding: 0 10px;
+    padding: 5px 10px;
 }
 .sign-up:hover{
     border: 2px solid #04AA6B;
@@ -26,6 +27,7 @@
     margin-left: 10px;
     font-weight: 600;
     color: rgb(168, 56, 56);
+    padding: 5px 5px;
 }
 .logout{
     font-size: 15px;
@@ -37,4 +39,15 @@
     margin-left: 5px;
     font-weight: 600;
 }
+.logout:hover{
+    font-size: 15px;
+    background-color: #ca3420;
+    color: white;
+    border: 2px solid #ca3420;
+   
+    
+}
+
+
+
 

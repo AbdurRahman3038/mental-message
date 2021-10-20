@@ -17,7 +17,7 @@ const Service = (props) => {
                         {description}
                     </Card.Text>
                 </Card.Body>
-                <Card.Footer>
+                <Card.Footer className="card-footer">
                     <Link to={`/booking/${id}`}><button className="book-appointment">Book Appointment <i class="far fa-calendar-check"></i></button></Link>
                 </Card.Footer>
             </Card>

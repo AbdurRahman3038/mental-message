@@ -9,7 +9,7 @@ import { Link } from 'react-router-dom';
 const Account = () => {
     return (
         <div>
-            <h3 className="my-5 text-center text-success">Acount Information</h3>
+            <h3 className="my-5 text-center text-success">Account Information</h3>
             <section className="account-info my-5">
                 <div >
                     <img className="account-img" src={img1} alt="" />

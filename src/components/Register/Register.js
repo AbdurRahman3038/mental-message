@@ -24,13 +24,13 @@ const Register = () => {
     }
 
 
-// email and password 
+    // email and password 
 
     const auth = getAuth();
     const [error, setError] = useState('');
     const [data, setData] = useState({ name: '', email: '', password: '' });
     const [isLogin, setIsLogin] = useState(false);
-  
+
     const handleData = (event) => {
         const newData = { ...data }
         newData[event.target.name] = event.target.value;
@@ -69,7 +69,7 @@ const Register = () => {
 
     }
 
-  // login account 
+    // login account 
 
     const createNewUser = (email, password) => {
         createUserWithEmailAndPassword(auth, email, password)
@@ -91,7 +91,7 @@ const Register = () => {
             .then(result => {
                 const user = result.user;
                 setError('');
-                
+
             })
             .catch(error => {
                 setError(error.message);
@@ -125,6 +125,7 @@ const Register = () => {
         <div className="login-container">
             <div id="register-div">
                 <h4 className="text-center">Register Here</h4>
+                <p className="text-center text-danger">Your Password must be in 6 characters including 2 uppercase! </p>
 
                 <div className="row mb-3 text-danger">{ }</div>
 
@@ -152,7 +153,7 @@ const Register = () => {
 
             <div id="login-div">
                 <h4 className="text-center">Login Here</h4>
-
+                <p className="text-center text-danger">Your Password must be in 6 characters including 2 uppercase! </p>
                 <Form onSubmit={handleLogin}>
                     <Form.Group className="mb-3" controlId="formGroupEmail">
                         <Form.Label>Email Address</Form.Label>
